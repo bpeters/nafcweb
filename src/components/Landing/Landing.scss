@@ -27,11 +27,13 @@
 
 .apple {
   padding-bottom: 40px;
+  max-height: 75px;
+  max-width: 175px;
 }
 
 .phone {
   position: relative;
   bottom: 0;
-  height: 300px; 
-  width: auto; 
+  height: 300px;
+  width: auto;
 }
