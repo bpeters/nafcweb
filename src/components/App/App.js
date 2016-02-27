@@ -13,6 +13,7 @@ import s from './App.scss';
 import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
+import Landing from '../Landing';
 
 class App extends Component {
 
@@ -56,10 +57,7 @@ class App extends Component {
   render() {
     return !this.props.error ? (
       <div>
-        <Header />
-        {this.props.children}
-        <Feedback />
-        <Footer />
+       <Landing />
       </div>
     ) : this.props.children;
   }

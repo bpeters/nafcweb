@@ -4,7 +4,16 @@ import s from './Landing.scss';
 
 
 
-class ContactPage extends Component {
+class Landing extends Component {
 
+  render() {
+    return (
+
+      <div> Test </div>
+
+    );
+  }
 
 }
+
+export default withStyles(Landing, s);
