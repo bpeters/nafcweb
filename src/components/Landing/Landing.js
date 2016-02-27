@@ -14,9 +14,9 @@ class Landing extends Component {
         src='../../Logo.png'
         />
         <div className= {s.about}>
-          Lets help you send better messages to avoid a <br></br>
-          fight, after all its not a fight club! Type a message <br></br>
-          get a sentiment score. Green is great,  anything <br></br>
+          Lets help you send better messages to avoid a
+          fight, after all its not a fight club! Type a message
+          get a sentiment score. Green is great,  anything
           else and you are on your own
         </div>
         <img
