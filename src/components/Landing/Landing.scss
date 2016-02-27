@@ -1,6 +1,23 @@
 @import '../variables.scss';
 
-.root {
-  background: #333;
-  color: #fff;
+
+.landing {
+  margin-left: 50%;
+  width: 50%;
+}
+
+.about {
+  margin-left: 50%;
+  width: 50%;
+  font: 16px;
+}
+
+.apple {
+
+}
+
+.phone {
+  position: absolute;
+  bottom: 0;
+  margin-left: 50%;
 }

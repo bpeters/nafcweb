@@ -1,18 +1,19 @@
 import React, { Component, PropTypes } from 'react';
-import radium from 'radium';
-import styles from './styles';
+import withStyles from 'isomorphic-style-loader/lib/withStyles';
+import s from './Landing.scss';
+
 
 
 class Landing extends Component {
 
   render() {
     return (
-      <div>
+      <div className= 'landing'>
         <img
         classname='logo'
-        src='../../public/Logo'
+        src='../../Logo.png'
         />
-        <div className= 'about' >
+        <div className= 'about'>
           Lets help you send better messages to avoid a
           fight, after all its not a fight club! Type a message
           get a sentiment score. Green is great,  anything
@@ -20,13 +21,16 @@ class Landing extends Component {
         </div>
         <img
         className='phone'
-        src='../../public/Phone'
+        src='../../App-Store-Logo.png'
         />
-
+        <img
+        className='phone'
+        src='../../Phone.png'
+        />
       </div>
     );
   }
 
 }
 
-export default  radium(Landing);
+export default withStyles(Landing, s);
