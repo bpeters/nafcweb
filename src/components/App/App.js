@@ -57,7 +57,7 @@ class App extends Component {
   render() {
     return !this.props.error ? (
       <div>
-       <Landing />
+       <Landing/>
       </div>
     ) : this.props.children;
   }

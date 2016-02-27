@@ -8,23 +8,23 @@ class Landing extends Component {
 
   render() {
     return (
-      <div className= 'landing'>
+      <div className= {s.landing}>
         <img
-        classname='logo'
+        classname= {s.logo}
         src='../../Logo.png'
         />
-        <div className= 'about'>
-          Lets help you send better messages to avoid a
-          fight, after all its not a fight club! Type a message
-          get a sentiment score. Green is great,  anything
+        <div className= {s.about}>
+          Lets help you send better messages to avoid a <br></br>
+          fight, after all its not a fight club! Type a message <br></br>
+          get a sentiment score. Green is great,  anything <br></br>
           else and you are on your own
         </div>
         <img
-        className='phone'
+        className={s.apple}
         src='../../App-Store-Logo.png'
         />
         <img
-        className='phone'
+        className={s.phone}
         src='../../Phone.png'
         />
       </div>
