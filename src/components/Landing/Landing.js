@@ -12,10 +12,10 @@ class Landing extends Component {
           src='../../Logo.png'
         />
         <div className={s.about}>
-          Lets help you send better messages to avoid a
-          fight, after all its not a fight club! Type a message
-          get a sentiment score. Green is great,  anything
-          else and you are on your own
+          Let's help you send better messages to avoid a
+          fight, after all it's not a fight club! Type a message
+          get a sentiment score. Green is great, anything
+          else and you are on your own.
         </div>
         <img
           className={s.apple}
@@ -23,7 +23,7 @@ class Landing extends Component {
         />
         <img
           className={s.phone}
-          src='../../Phone.png'
+          src='../../webphone@2x.png'
         />
       </div>
     );
