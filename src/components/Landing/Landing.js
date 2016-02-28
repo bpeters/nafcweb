@@ -29,7 +29,7 @@ class Landing extends Component {
         </div>
         <img
           className={s.apple}
-          src='../../AppleBadge.png'
+          src='../../app-store-badge.png'
         />
         <img
           className={s.phone}
