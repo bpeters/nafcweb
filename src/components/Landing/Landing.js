@@ -4,7 +4,18 @@ import s from './Landing.scss';
 
 class Landing extends Component {
 
+  static contextTypes = {
+    onSetTitle: PropTypes.func.isRequired,
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+  };
+
   render() {
+    this.context.onSetTitle('NAFC');
+
     return (
       <div className={s.landing}>
         <img
@@ -12,10 +23,9 @@ class Landing extends Component {
           src='../../Logo.png'
         />
         <div className={s.about}>
-          Let's help you send better messages to avoid a
-          fight, after all it's not a fight club! Type a message
-          get a sentiment score. Green is great, anything
-          else and you are on your own.
+          Let's help you send better messages to avoid a fight.
+          After all, it's not a fight club! Type a message and get a sentiment score.
+          Green is great… anything else, and you are on your own.
         </div>
         <img
           className={s.apple}
