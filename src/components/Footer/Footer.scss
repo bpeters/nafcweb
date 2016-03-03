@@ -1,4 +1,22 @@
 
 .footer {
+  width: 100%;
+  font-family: Next-Regular;
+  color: #ABABAB;
+  padding: 5% 0 5% 0;
+}
 
+.footerList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 35% 0 35%;
+  font-size: 12px;
+}
+
+.dope {
+  color: #ED3D96;
+  font-family: Next-Heavy;
+  font-size: 14px;
 }
