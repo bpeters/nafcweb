@@ -2,6 +2,8 @@ import React, { Component, PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Landing.scss';
 
+import Footer from '../Footer';
+
 class Landing extends Component {
 
   static contextTypes = {
@@ -35,6 +37,7 @@ class Landing extends Component {
           className={s.phone}
           src='../../webphone@2x.png'
         />
+        <Footer />
       </div>
     );
   }
