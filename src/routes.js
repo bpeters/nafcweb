@@ -14,6 +14,7 @@ import App from './components/App';
 import Landing from './components/Landing';
 import NotFoundPage from './components/NotFoundPage';
 import ErrorPage from './components/ErrorPage';
+import Legal from './components/legal';
 
 const router = new Router(on => {
   on('*', async (state, next) => {
@@ -22,6 +23,8 @@ const router = new Router(on => {
   });
 
   on('/', async () => <Landing />);
+
+  on('/legal'), async () => <Legal />;
 
   on('error', (state, error) => state.statusCode === 404 ?
     <App context={state.context} error={error}><NotFoundPage /></App> :
