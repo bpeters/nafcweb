@@ -24,7 +24,7 @@ const router = new Router(on => {
 
   on('/', async () => <Landing />);
 
-  on('/legal'), async () => <Legal />;
+  on('/legal', async () => <Legal />);
 
   on('error', (state, error) => state.statusCode === 404 ?
     <App context={state.context} error={error}><NotFoundPage /></App> :
