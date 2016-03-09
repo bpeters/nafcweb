@@ -29,10 +29,12 @@ class Landing extends Component {
           After all, it's not a fight club! Type a message and get a sentiment score.
           Green is great… anything else, and you are on your own.
         </div>
-        <img
-          className={s.apple}
-          src='../../app-store-badge.png'
-        />
+        <a href='https://itunes.apple.com/us/app/nafc/id1089745220'>
+          <img
+            className={s.apple}
+            src='../../app-store-badge.png'
+          />
+        </a>
         <img
           className={s.phone}
           src='../../webphone@2x.png'
